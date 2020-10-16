@@ -1,7 +1,7 @@
 {
   "name": "blackboard-main",
   "version": "1.0.0",
-  "description": "Contact manager app",
+  "description": "Contact manager",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
