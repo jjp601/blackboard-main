@@ -78,37 +78,37 @@ const CourseView = ({ course }) => {
             
           {video1 && (
             <li className="video">
-              <label>Lecture Video 10/14/2020</label>
+              <label>Lecture Video 10/19/2020</label>
               <iframe title="Lecture1"  width="560" height="315" src={"https://www.youtube.com/embed/" + video1} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
             </li>
           )}
           {video2 && (
             <li className="video">
-              <label>Lecture Video 10/12/2020</label>
+              <label>Lecture Video 10/14/2020</label>
               <iframe title="Lecture2" width="560" height="315" src={"https://www.youtube.com/embed/" + video2} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
             </li>
           )}
           {video3 && (
             <li className="video">
-              <label>Lecture Video 10/5/2020</label>
+              <label>Lecture Video 10/12/2020</label>
               <iframe title="Lecture3" width="560" height="315" src={"https://www.youtube.com/embed/" + video3} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
             </li>
           )}
           {video4 && (
             <li className="video">
-              <label>Lecture Video 9/30/2020</label>
+              <label>Lecture Video 10/5/2020</label>
               <iframe title="Lecture4" width="560" height="315" src={"https://www.youtube.com/embed/" + video4} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
             </li>
           )}
           {video5 && (
             <li className="video">
-              <label>Lecture Video 9/28/2020</label>
+              <label>Lecture Video 9/30/2020</label>
               <iframe title="Lecture5" width="560" height="315" src={"https://www.youtube.com/embed/" + video5} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
             </li>
           )}
           {video6 && (
             <li className="video">
-              <label>Lecture Video 9/23/2020</label>
+              <label>Lecture Video 9/28/2020</label>
               <iframe title="Lecture6" width="560" height="315" src={"https://www.youtube.com/embed/" + video6} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
             </li>
           )}
