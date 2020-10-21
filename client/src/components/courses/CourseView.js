@@ -75,7 +75,43 @@ const CourseView = ({ course }) => {
 
         <div id="content" className="w3-container city">
         <ul className='list'>
-            
+          
+        {video15 && (
+            <li className="video">
+              <label>Lecture Video 11/9/2020</label>
+              <iframe title="Lecture15" width="560" height="315" src={"https://www.youtube.com/embed/" + video15} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
+            </li>
+          )}
+          {video16 && (
+            <li className="video">
+              <label>Lecture Video 11/4/2020</label>
+              <iframe title="Lecture16" width="560" height="315" src={"https://www.youtube.com/embed/" + video16} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
+            </li>
+          )}
+          {video17 && (
+            <li className="video">
+              <label>Lecture Video 11/2/2020</label>
+              <iframe title="Lecture17" width="560" height="315" src={"https://www.youtube.com/embed/" + video17} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
+            </li>
+          )}
+          {video18 && (
+            <li className="video">
+              <label>Lecture Video 10/28/2020</label>
+              <iframe title="Lecture18" width="560" height="315" src={"https://www.youtube.com/embed/" + video18} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
+            </li>
+          )}
+          {video19 && (
+            <li className="video">
+              <label>Lecture Video 10/26/2020</label>
+              <iframe title="Lecture19" width="560" height="315" src={"https://www.youtube.com/embed/" + video19} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
+            </li>
+          )}
+          {video20 && (
+            <li className="video"><iframe title="Lecture20" width="560" height="315" src={"https://www.youtube.com/embed/" + video20} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
+              <label>Lecture Video 10/21/2020</label>
+
+            </li>
+          )}
           {video1 && (
             <li className="video">
               <label>Lecture Video 10/19/2020</label>
@@ -160,42 +196,7 @@ const CourseView = ({ course }) => {
               <iframe title="Lecture14" width="560" height="315" src={"https://www.youtube.com/embed/" + video14} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
             </li>
           )}
-          {video15 && (
-            <li className="video">
-              <label>Lecture Video 8/20/2020</label>
-              <iframe title="Lecture15" width="560" height="315" src={"https://www.youtube.com/embed/" + video15} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
-            </li>
-          )}
-          {video16 && (
-            <li className="video">
-              <label>Lecture Video 8/20/2020</label>
-              <iframe title="Lecture16" width="560" height="315" src={"https://www.youtube.com/embed/" + video16} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
-            </li>
-          )}
-          {video17 && (
-            <li className="video">
-              <label>Lecture Video 8/20/2020</label>
-              <iframe title="Lecture17" width="560" height="315" src={"https://www.youtube.com/embed/" + video17} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
-            </li>
-          )}
-          {video18 && (
-            <li className="video">
-              <label>Lecture Video 8/20/2020</label>
-              <iframe title="Lecture18" width="560" height="315" src={"https://www.youtube.com/embed/" + video18} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
-            </li>
-          )}
-          {video19 && (
-            <li className="video">
-              <label>Lecture Video 8/20/2020</label>
-              <iframe title="Lecture19" width="560" height="315" src={"https://www.youtube.com/embed/" + video19} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
-            </li>
-          )}
-          {video20 && (
-            <li className="video"><iframe title="Lecture20" width="560" height="315" src={"https://www.youtube.com/embed/" + video20} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
-              <label>Lecture Video 8/20/2020</label>
-
-            </li>
-          )}
+          
           
         </ul>
         </div>
