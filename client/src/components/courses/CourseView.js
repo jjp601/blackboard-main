@@ -76,12 +76,7 @@ const CourseView = ({ course }) => {
         <div id="content" className="w3-container city">
         <ul className='list'>
           
-        {video15 && (
-            <li className="video">
-              <label>Lecture Video 11/9/2020</label>
-              <iframe title="Lecture15" width="560" height="315" src={"https://www.youtube.com/embed/" + video15} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
-            </li>
-          )}
+        
           {video16 && (
             <li className="video">
               <label>Lecture Video 11/4/2020</label>
