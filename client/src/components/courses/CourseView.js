@@ -102,9 +102,9 @@ const CourseView = ({ course }) => {
             </li>
           )}
           {video20 && (
-            <li className="video"><iframe title="Lecture20" width="560" height="315" src={"https://www.youtube.com/embed/" + video20} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
+            <li className="video">
               <label>Lecture Video 10/21/2020</label>
-
+              <iframe title="Lecture20" width="560" height="315" src={"https://www.youtube.com/embed/" + video20} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
             </li>
           )}
           {video1 && (
