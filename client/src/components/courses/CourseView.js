@@ -241,19 +241,9 @@ const CourseView = ({ course }) => {
               <label>Assignment 4:</label> <p>{assignment4}</p>
             </li>
           )}
-          {quiz5 && (
-            <li>
-              <label>Quiz 5:</label> <p>{quiz5}</p>
-            </li>
-          )}
           {assignment5 && (
             <li>
               <label>Assignment 5:</label> <p>{assignment5}</p>
-            </li>
-          )}
-          {project && (
-            <li>
-              <label>Code Project:</label> <p>{project}</p>
             </li>
           )}
           {midterm && (
@@ -264,6 +254,16 @@ const CourseView = ({ course }) => {
           {final && (
             <li>
               <label>Final:</label> <p>{final}</p>
+            </li>
+          )}
+          {project && (
+            <li>
+              <b><label>Total Score:</label> <p>{project}</p></b>
+            </li>
+          )}
+          {quiz5 && (
+            <li>
+              <b><label>Letter Grade:</label> <p>{quiz5}</p></b>
             </li>
           )}
           

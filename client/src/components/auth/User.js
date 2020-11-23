@@ -85,12 +85,44 @@ const User = () => {
             <th>Final Grade</th>
         </tr>
         <tr>
+            <td>CSCE436</td>
+            <td>ADVANCED EMBEDDED SYSTEMS</td>
+            <td>Falkinburg, Jeffrey</td>
+            <td>Spring 2021</td>
+            <td>3</td>
+            <td>In Progress</td>
+        </tr>
+        <tr>
+            <td>CSCE451</td>
+            <td>OPERATING SYSTEMS PRINCIPLES</td>
+            <td>Bohn, Christopher</td>
+            <td>Spring 2021</td>
+            <td>4</td>
+            <td>In Progress</td>
+        </tr>
+        <tr>
+            <td>CSCE455</td>
+            <td>DISTRBUTED OPERATING SYSTEMS</td>
+            <td>Bourke, Christopher</td>
+            <td>Spring 2021</td>
+            <td>3</td>
+            <td>In Progress</td>
+        </tr>
+        <tr>
+            <td>CSCE466</td>
+            <td>SOFTWARE DESIGN & ARCHITECTURE</td>
+            <td>Garvin, Brady</td>
+            <td>Spring 2021</td>
+            <td>3</td>
+            <td>In Progress</td>
+        </tr>
+        <tr>
             <td>CSCE430</td>
             <td>COMPUTER ARCHITECTURE</td>
             <td>Bourke, Christopher</td>
             <td>Fall 2020</td>
             <td>4</td>
-            <td>In Progress</td>
+            <td>B+</td>
         </tr>
         <tr>
         <td>CSCE413</td>
