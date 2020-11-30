@@ -130,7 +130,7 @@ const User = () => {
             <td>Garvin, Brady</td>
             <td>Fall 2020</td>
             <td>3</td>
-            <td>In Progress</td>
+            <td>A-</td>
         </tr>
         <tr>
         <td>CSCE423</td>
@@ -138,7 +138,7 @@ const User = () => {
             <td>Bohn, Christopher</td>
             <td>Fall 2020</td>
             <td>3</td>
-            <td>In Progress</td>
+            <td>A-</td>
         </tr>
         <tr>
         <td>CSCE155E</td>
